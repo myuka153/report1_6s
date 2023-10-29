@@ -8124,9 +8124,13 @@ textarea.form-control-lg {
 .text-opacity-100 {
   --bs-text-opacity: 1;
 }
-
+/* ・・・・・ */
 .bg-outpicture{
-  background-image: url(/assets/img/portfolio/restrant-out.jpg) !important;
+  background-image: url(../assets/img/portfolio/restrant-out.jpg) !important;
+  /* height: auto; */
+  background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
 }
 
 .bg-primary {
