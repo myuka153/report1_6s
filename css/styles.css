@@ -8125,6 +8125,10 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
 }
 
+.bg-outpicture{
+  background-image: url(/assets/img/portfolio/restrant-out.jpg) !important;
+}
+
 .bg-primary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
