@@ -8128,9 +8128,11 @@ textarea.form-control-lg {
 .bg-outpicture{
   background-image: url(../assets/img/portfolio/restrant-out.jpg) !important;
   /* height: auto; */
-  background-size: cover;
-    background-attachment: fixed;
-    background-position: center center;
+  /* background-size:cover; */
+  /* width: ; */
+  height: 100%;
+  background-repeat: no-repeat;  
+  background-position: center ;
 }
 
 .bg-primary {
