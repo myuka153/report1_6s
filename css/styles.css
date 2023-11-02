@@ -7909,6 +7909,11 @@ textarea.form-control-lg {
 .gap-5 {
   gap: 3rem !important;
 }
+/*  */
+.font-patern {
+  font-family: 'Sacramento',
+    cursive;
+}
 
 .font-monospace {
   font-family: var(--bs-font-monospace) !important;
@@ -8086,6 +8091,10 @@ textarea.form-control-lg {
   --bs-text-opacity: 1;
   color: rgba(var(--bs-white-rgb), var(--bs-text-opacity)) !important;
 }
+.text-red {
+  --bs-text-opacity: 1;
+  color: rgba(var(--bs-red-rgb), var(--bs-text-opacity)) !important;
+}
 
 .text-body {
   --bs-text-opacity: 1;
@@ -8133,7 +8142,8 @@ textarea.form-control-lg {
   /* height: auto; */
   /* background-size:cover; */
   /* width: ; */
-  height: 100%;
+  width: 100;
+  height: auto;
   background-repeat: no-repeat;  
   background-position: center ;
 }
