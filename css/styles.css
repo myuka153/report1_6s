@@ -303,6 +303,14 @@ kbd kbd {
 figure {
   margin: 0 0 1rem;
 }
+.img-size70{
+  width: 70%;
+  height: auto;
+}
+
+.img-center{
+  position: center;
+}
 
 img,
 svg {
