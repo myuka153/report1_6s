@@ -303,7 +303,7 @@ kbd kbd {
 figure {
   margin: 0 0 1rem;
 }
-.img-size70{
+.img-topsize{
   width: 70%;
   height: auto;
 }
@@ -612,6 +612,13 @@ progress {
 .img-fluid {
   max-width: 100%;
   height: auto;
+}
+
+.img-map {
+  max-width: 100%;
+  height: auto;
+  position: absolute;
+  
 }
 
 .img-thumbnail {
