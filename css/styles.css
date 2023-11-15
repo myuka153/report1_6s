@@ -304,8 +304,14 @@ figure {
   margin: 0 0 1rem;
 }
 .img-topsize{
-  width: 70%;
+  width: 700px;
   height: auto;
+}
+@media not all and (min-width: 700px) {
+  .img-topsize {
+    width: 500px;
+    height: auto;
+  }
 }
 
 .img-center{
