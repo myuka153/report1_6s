@@ -621,9 +621,10 @@ progress {
 }
 
 .img-map {
-  max-width: 80%;
+  max-width: 100%;
   height: auto; 
 }
+
 
 .img-thumbnail {
   padding: 0.25rem;
